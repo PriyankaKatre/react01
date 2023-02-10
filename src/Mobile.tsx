@@ -1,14 +1,14 @@
 
-interface bookProps {
+interface mobileProps {
     img:string,
     title:string,
     brand:string
 }
 
 
-const Book = ({ img, title, brand } : bookProps) => {
+const Mobile = ({ img, title, brand } : mobileProps) => {
   return (
-    <article className='book'>
+    <article className='mobile'>
       <img src={img} alt={title} />
       <h2>{title}</h2>
 
@@ -17,4 +17,4 @@ const Book = ({ img, title, brand } : bookProps) => {
   );
 };
 
-export default Book;
+export default Mobile;

@@ -1,10 +1,10 @@
-import BookList from './MobileList';
+import MobileList from './MobileList';
 
 
 function App() {
   return (
     <>
-    <BookList />
+    <MobileList />
     </>
   )
 }

@@ -11,7 +11,7 @@ body {
   color: #222;
 }
 
-.booklist {
+.mobileList {
   width: 90vw;
   max-width: 1170px;
   margin: 5rem auto;
@@ -20,33 +20,33 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .booklist {
+  .mobileList {
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
   }
 }
-.book {
+.mobile {
   background: #fff;
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
 }
-.book img {
+.mobile img {
   width: 100%;
   object-fit: cover;
 }
-.book h2 {
+.mobile h2 {
   margin-top: 1rem;
   font-size: 1rem;
 }
 
-.book h4 {
+.mobile h4 {
   color: #617d98;
   font-size: 0.75rem;
   margin-top: 0.5rem;
   letter-spacing: 2px;
 }
-.book p {
+.mobile p {
   margin: 1rem 0 0.5rem;
 }
 h1 {
