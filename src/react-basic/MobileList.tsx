@@ -6,7 +6,7 @@ import Mobile from './Mobile';
 const MobileList = () => {
   return (
     <>
-      <h1>amazon best sellers</h1>
+      <h1>best sellers</h1>
       <section className='mobileList'>
         {mobiles.map((mobile) => {
           return <Mobile {...mobile} key={mobile.id} />;

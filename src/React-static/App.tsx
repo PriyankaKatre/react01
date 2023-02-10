@@ -1,4 +1,4 @@
-import MobileList from '../MobileList';
+import MobileList from '../react-basic/MobileList';
 import About from './components/About.js';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
